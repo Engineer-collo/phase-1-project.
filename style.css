@@ -1,1 +1,195 @@
 
+body{
+margin: 0px;
+    padding: 0px;
+    background-color: white;
+}
+
+#navBar{
+
+ position: fixed; top: 0; left: 0; width: 100%; 
+
+
+    background-color:gray;
+    height: 100px;
+    width: 100%;
+    text-align: center;
+padding-top: 2px;
+
+}
+
+a{
+    font-size: 30px;
+    padding: 10px;
+    text-decoration: none;
+    line-height: 100px
+
+}
+
+#blackModeBtn{
+    font-size: 20px;
+    border-radius: 10px;
+    background-color: chocolate;
+  color: white;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+
+#lightModeBtn{
+    font-size: 20px;
+    border-radius: 10px;
+    background-color: chocolate;
+  color: white;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+
+#inputFieldDiv{
+  margin-top: 20px;
+  padding-top: 20px;
+  padding-left: 20px;
+    border: 2px solid black;
+    border-radius: 10px;
+    background-color: darkolivegreen;
+    width: 25%;
+    height: 150px;
+} 
+
+#userTextArea{
+margin-top: 10px;
+}
+
+#switchMode{
+    margin-left: 100px;
+}
+
+
+a:link {
+    color: #FF0000;
+  }
+  
+  /* visited link */
+  a:visited {
+    color: #00FF00;
+  }
+  
+  /* mouse over link */
+  a:hover {
+    color: #FF00FF;
+  }
+  
+  /* selected link */
+  a:active {
+    color: #0000FF;
+  }
+
+#footer{
+    margin-top: 15px;
+    background-color:black ;
+    color: white;
+    height: 100px;
+    width: 100%;
+
+}
+
+
+
+
+
+
+
+  #backTopBtn{
+    margin-top: 15px;
+    margin-left: 20px;
+    background-color: green;
+    font-size: 20px;
+  }
+
+#commentSubmitButton{
+    background-color: chocolate;
+    color: white;
+
+
+}
+
+#formDiv{
+    background-color: darkslategray;
+    color: white;
+    border: 2px solid black;
+    width: 35%;
+    border-radius: 10px;
+    margin-left: 100px;
+}
+
+
+
+#searchInput{
+  border-radius: 10px;
+}
+
+#submitBtn{
+  background-color: chocolate;
+  color: white;
+
+}
+
+#formDiv{
+  padding-left: 35px;
+  padding-top: 20px;
+  height: 200px;
+}
+
+
+
+
+
+/* Style the product container */
+#dataContainer {
+  border: 2px solid black;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: space-around;
+}
+
+/* Style individual product */
+.content {
+  background-color: #fff;
+  padding: 15px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: 250px;
+  text-align: center;
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+
+.content img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+.content h3 {
+  font-size: 18px;
+  color: #333;
+  margin: 10px 0;
+}
+
+.content p {
+  font-size: 14px;
+  color: #555;
+}
+
+
+#footerDiv{ 
+  text-align: center;
+  padding-top: 15px;
+}
+
+
+#cartSection{
+  margin-top: 20px;
+  text-align: center;
+}
